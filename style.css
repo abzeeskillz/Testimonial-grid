@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
+body {
+    background-color: hsl(204, 88%, 93%);
+    font-family: "Barlow Semi Condensed";
+    padding: 20px;
+}
+
+.daniel,
+.jonathan,
+.jeanette,
+.patrick,
+.kira {
+    background-color: hsl(263, 55%, 51%);
+    border-radius: 0.5rem;
+    padding: 2rem;
+    justify-content: center;
+    color: #ffffff;
+    z-index: -1;
+}
+
+.quote {
+    position: absolute;
+    float: right;
+    right: 45px;
+    top: 20px;
+    bottom: 8%;
+    -webkit-transform: translateX(-10%);
+    -ms-transform: translateX(-10%);
+    transform: translateX(0%);
+    z-index: 0;
+}
+
+.jonathan {
+    background-color: hsl(217, 19%, 35%);
+    margin-top: 20px;
+}
+
+.jeanette,
+.kira {
+    background-color: hsl(0, 0%, 100%);
+    margin-top: 20px;
+}
+
+.patrick {
+    background-color: hsl(219, 29%, 14%);
+    margin-top: 20px;
+}
+
+.profile3 {
+    color: hsl(217, 19%, 35%);
+}
+
+.clifford,
+.walters,
+.harmon,
+.abrams,
+.whittle {
+    border-radius: 50%;
+    border: 2px solid #9e6eec;
+    float: left;
+}
+
+.walters,
+.harmon,
+.whittle {
+    border: 0;
+}
+
+.profile {
+    width: 60%;
+    z-index: 20;
+}
+
+.profile-description {
+    float: left;
+}
+
+.desc1,
+.desc3,
+.desc5 {
+    font-size: small;
+    margin-top: 1.9px;
+    margin-left: 1rem;
+    margin-bottom: 1.9px;
+}
+
+.desc2,
+.desc4,
+.desc6 {
+    font-size: 0.66rem;
+    margin-left: 1rem;
+    color: #c6a8f7;
+}
+
+.par1 {
+    position: relative;
+    float: left;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+    text-align: left;
+    z-index: 100;
+}
+
+.an,
+.thank,
+.such {
+    color: hsl(217, 19%, 35%);
+    z-index: 2;
+}
+
+.par2,
+.par3 {
+    float: left;
+    font-size: 0.66rem;
+    color: #c29cfd;
+    text-align: left;
+    z-index: 1;
+}
+
+.desc4,
+.par3,
+.desc6 {
+    color: rgb(177, 175, 175);
+}
+
+@media (min-width: 800px) {
+    .quote {
+        position: absolute;
+        float: left;
+        left: 25rem;
+        top: 20px;
+        bottom: 8%;
+        -webkit-transform: translateX(-10%);
+        -ms-transform: translateX(-10%);
+        transform: translateX(0%);
+        z-index: 0;
+    }
+    .jonathan {
+        margin-top: 0;
+        margin-left: 20px;
+    }
+    .patrick {
+        margin-left: 28px;
+    }
+    .con2 {
+        position: relative;
+    }
+    .con2 {
+        position: relative;
+    }
+    .kira {
+        position: absolute;
+        margin-left: 52rem;
+        margin-top: 0;
+        width: 17.34%;
+    }
+}
